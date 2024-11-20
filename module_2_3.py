@@ -6,9 +6,9 @@ while i < len(my_list):
             print(my_list[i])
         i += 1
         continue
-        print(my_list[i])
     else:
         break
+    print(my_list[i])
 
 
 
