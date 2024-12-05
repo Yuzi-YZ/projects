@@ -12,6 +12,6 @@ def get_matrix(n, m, value):
 n = 3
 m = 5
 value = 42
-matrix = [[value for _ in range(n)] for _ in range(m)]
+matrix = [[value for _ in range(m)] for _ in range(n)]
 result2 = matrix
-print(result2) #_получается чушь, где непонятно почему n и m меняются местами
+print(result2) #_и всё получится
