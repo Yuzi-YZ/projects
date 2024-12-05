@@ -6,7 +6,7 @@ def get_matrix(n, m, value):
     for value in range(n):
         for _ in range(m):
             result = get_matrix(n, m, value)
-            print(result)
+            print(result) #_и нет никакого результата
 
             #_хотя, я могу написать так:
 n = 3
